@@ -1,0 +1,88 @@
+2021-11-08 02:26:15 [main] ERROR by.epam.task4.reader.impl.DataReaderImpl - File data/data.txt does not exist or is not available.
+2021-11-08 02:26:15 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 02:26:15 [main] ERROR by.epam.task4.reader.impl.DataReaderImpl - IO Exception during working with file data/data.txt
+2021-11-08 02:26:15 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 02:32:22 [main] ERROR by.epam.task4.reader.impl.DataReaderImpl - File data/data.txt does not exist or is not available.
+2021-11-08 02:32:22 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 02:32:22 [main] ERROR by.epam.task4.reader.impl.DataReaderImpl - IO Exception during working with file data/data.txt
+2021-11-08 02:32:22 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 02:33:51 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 02:40:43 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 02:40:43 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 02:43:49 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 02:43:49 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 02:45:28 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 02:45:28 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 02:45:28 [main] INFO  by.epam.task4.main.Main - 	I t(?|.|...|!) h a s(?|.|...|!) s u r v i v e d(?|.|...|!) -(?|.|...|!) n o t(?|.|...|!) o n l y(?|.|...|!) ( f i v e )(?|.|...|!) c e n t u r i e s ,(?|.|...|!) b u t(?|.|...|!) a l s o(?|.|...|!) t h e(?|.|...|!) l e a p(?|.|...|!) i n t o(?|.|...|!) e l e c t r o n i c(?|.|...|!) t y p e s e t t i n g ,(?|.|...|!) r e m a i n i n g(?|.|...|!) e s s e n t i a l l y(?|.|...|!) u n c h a n g e d .
+|		I t(?|.|...|!) i s(?|.|...|!) a(?|.|...|!) l o n g(?|.|...|!) a ! = b(?|.|...|!) e s t a b l i s h e d(?|.|...|!) f a c t(?|.|...|!) t h a t(?|.|...|!) a(?|.|...|!) r e a d e r(?|.|...|!) w i l l(?|.|...|!) b e(?|.|...|!) d i s t r a c t e d(?|.|...|!) b y(?|.|...|!) t h e(?|.|...|!) r e a d a b l e(?|.|...|!) c o n t e n t(?|.|...|!) o f(?|.|...|!) a(?|.|...|!) p a g e(?|.|...|!) w h e n(?|.|...|!) l o o k i n g(?|.|...|!) a t(?|.|...|!) i t s(?|.|...|!) l a y o u t .
+|			
+2021-11-08 02:47:19 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 02:47:19 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 02:47:19 [main] INFO  by.epam.task4.main.Main - 	I t h a s s u r v i v e d - n o t o n l y ( f i v e ) c e n t u r i e s , b u t a l s o t h e l e a p i n t o e l e c t r o n i c t y p e s e t t i n g , r e m a i n i n g e s s e n t i a l l y u n c h a n g e d .
+|		I t i s a l o n g a ! = b e s t a b l i s h e d f a c t t h a t a r e a d e r w i l l b e d i s t r a c t e d b y t h e r e a d a b l e c o n t e n t o f a p a g e w h e n l o o k i n g a t i t s l a y o u t .
+|			
+2021-11-08 02:48:43 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 02:48:43 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 02:48:43 [main] INFO  by.epam.task4.main.Main - 	 I t  h a s  s u r v i v e d -  n o t  o n l y (  f i v e )  c e n t u r i e s ,  b u t  a l s o  t h e  l e a p  i n t o  e l e c t r o n i c  t y p e s e t t i n g ,  r e m a i n i n g  e s s e n t i a l l y  u n c h a n g e d .
+|		 I t  i s  a  l o n g  a ! =  b  e s t a b l i s h e d  f a c t  t h a t  a  r e a d e r  w i l l  b e  d i s t r a c t e d  b y  t h e  r e a d a b l e  c o n t e n t  o f  a  p a g e  w h e n  l o o k i n g  a t  i t s  l a y o u t .
+|			
+2021-11-08 02:49:21 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 02:49:21 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 02:49:21 [main] INFO  by.epam.task4.main.Main - 	It has survived - not only ( five ) centuries , but also the leap into electronic typesetting , remaining essentially unchanged .
+|		It is a long a ! = b established fact that a reader will be distracted by the readable content of a page when looking at its layout .
+|			
+2021-11-08 02:51:18 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 02:51:18 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 02:51:18 [main] INFO  by.epam.task4.main.Main - 	It has survived - not only ( five ) centuries , but also the leap into electronic typesetting , remaining essentially unchanged .
+|		It is a long a ! = b established fact that a reader will be distracted by the readable content of a page when looking at its layout .
+|			
+2021-11-08 02:52:04 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 02:52:04 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 02:52:04 [main] INFO  by.epam.task4.main.Main - 	 It  has  survived  -  not  only  (five)  centuries,  but  also  the  leap  into  electronic  typesetting,  remaining  essentially  unchanged.
+|	 	 It  is  a  long  a!=b  established  fact  that  a  reader  will  be  distracted  by  the  readable  content  of  a  page  when  looking  at  its  layout.
+|	 	 	 
+2021-11-08 02:57:41 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 02:57:41 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 02:59:05 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 02:59:05 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 03:00:49 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 03:00:49 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 03:01:37 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 03:01:37 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 03:02:42 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 03:02:42 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 03:02:42 [main] INFO  by.epam.task4.main.Main - 	 It  has  survived  -  not  only  (five)  centuries,  but  also  the  leap  into  electronic  typesetting,  remaining  essentially  unchanged.
+|	 	 It  is  a  long  a!=b  established  fact  that  a  reader  will  be  distracted  by  the  readable  content  of  a  page  when  looking  at  its  layout.
+|	 	 	 
+2021-11-08 03:03:47 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 03:03:47 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 03:03:47 [main] INFO  by.epam.task4.main.Main - 	 It  has  survived  -  not  only  (five)  centuries,  but  also  the  leap  into  electronic  typesetting,  remaining  essentially  unchanged.
+|	 It  was  popularised  in  the  Динамо  (Рига)  with  the  release  of  Letraset  sheets.toString()  containing  Lorem  Ipsum  passages,  and  more  recently  with  desktop  publishing  software  like  Aldus  PageMaker  Faclon  including  versions  of  Lorem  Ipsum!
+|	 	 It  is  a  long  a!=b  established  fact  that  a  reader  will  be  distracted  by  the  readable  content  of  a  page  when  looking  at  its  layout.
+|	 The  point  of  using  Ipsum  is  that  it  has  a  more-or-less  normal  distribution  ob.toString(a?b:c),  as  opposed  to  using  (Content  here),  content  here's,  making  it  look  like  readable  English?
+|	 	 It  is  a  established  fact  that  a  reader  will  be  of  a  page  when  looking  at  its  layout...
+|	 	 
+2021-11-08 03:04:33 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 03:04:33 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 03:04:33 [main] INFO  by.epam.task4.main.Main - 	 It  has  survived  -  not  only  (five)  centuries,  but  also  the  leap  into  electronic  typesetting,  remaining  essentially  unchanged.
+|	 It  was  popularised  in  the  Динамо  (Рига)  with  the  release  of  Letraset  sheets.toString()  containing  Lorem  Ipsum  passages,  and  more  recently  with  desktop  publishing  software  like  Aldus  PageMaker  Faclon  including  versions  of  Lorem  Ipsum!
+|	 It  is  a  long  a!=b  established  fact  that  a  reader  will  be  distracted  by  the  readable  content  of  a  page  when  looking  at  its  layout.
+|	 The  point  of  using  Ipsum  is  that  it  has  a  more-or-less  normal  distribution  ob.toString(a?b:c),  as  opposed  to  using  (Content  here),  content  here's,  making  it  look  like  readable  English?
+|	 It  is  a  established  fact  that  a  reader  will  be  of  a  page  when  looking  at  its  layout...
+|	 
+2021-11-08 03:05:50 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 03:05:50 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 03:05:51 [main] INFO  by.epam.task4.main.Main - 	 It  has  survived  -  not  only  (five)  centuries,  but  also  the  leap  into  electronic  typesetting,  remaining  essentially  unchanged.
+|	 It  was  popularised  in  the  Динамо  (Рига)  with  the  release  of  Letraset  sheets.toString()  containing  Lorem  Ipsum  passages,  and  more  recently  with  desktop  publishing  software  like  Aldus  PageMaker  Faclon  including  versions  of  Lorem  Ipsum!
+|	 It  is  a  long  a!=b  established  fact  that  a  reader  will  be  distracted  by  the  readable  content  of  a  page  when  looking  at  its  layout.
+|	 The  point  of  using  Ipsum  is  that  it  has  a  more-or-less  normal  distribution  ob.toString(a?b:c),  as  opposed  to  using  (Content  here),  content  here's,  making  it  look  like  readable  English?
+|	 It  is  a  established  fact  that  a  reader  will  be  of  a  page  when  looking  at  its  layout...
+|	 
+2021-11-08 03:06:29 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Start reading
+2021-11-08 03:06:29 [main] INFO  by.epam.task4.reader.impl.DataReaderImpl - Finish reading
+2021-11-08 03:06:29 [main] INFO  by.epam.task4.main.Main - 	 It  has  survived  -  not  only  (five)  centuries,  but  also  the  leap  into  electronic  typesetting,  remaining  essentially  unchanged.
+	 It  was  popularised  in  the  Динамо  (Рига)  with  the  release  of  Letraset  sheets.toString()  containing  Lorem  Ipsum  passages,  and  more  recently  with  desktop  publishing  software  like  Aldus  PageMaker  Faclon  including  versions  of  Lorem  Ipsum!
+	 It  is  a  long  a!=b  established  fact  that  a  reader  will  be  distracted  by  the  readable  content  of  a  page  when  looking  at  its  layout.
+	 The  point  of  using  Ipsum  is  that  it  has  a  more-or-less  normal  distribution  ob.toString(a?b:c),  as  opposed  to  using  (Content  here),  content  here's,  making  it  look  like  readable  English?
+	 It  is  a  established  fact  that  a  reader  will  be  of  a  page  when  looking  at  its  layout...
+	 
