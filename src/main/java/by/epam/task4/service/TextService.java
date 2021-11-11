@@ -10,7 +10,7 @@ public interface TextService {
     List<TextComponent> sortParagraphsBySentence(TextComponent text) throws CustomException;
     TextComponent findSentenceWithLongestWord(TextComponent text) throws CustomException;
     List<TextComponent> deleteSentencesUnderWordLimit(TextComponent text, int wordLimit) throws CustomException;
-    Map<String, Integer> findSameWords(TextComponent text);
+    Map<String, Integer> findSameWords(TextComponent text) throws CustomException;
     long countConsonant(TextComponent text) throws CustomException;
     long countVowel(TextComponent text) throws CustomException;
 }
