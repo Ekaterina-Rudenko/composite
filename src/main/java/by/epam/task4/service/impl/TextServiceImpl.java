@@ -98,8 +98,35 @@ public class TextServiceImpl implements TextService {
     }
 
     @Override
-    public Map<String, Integer> findSameWords(TextComponent text) {
-        return null;
+    public Map<String, Integer> findSameWords(TextComponent text) throws CustomException {
+        if (text == null | !text.getType().equals(TextComponentType.TEXT)) {
+            throw new CustomException("Incorrect type " + text.getType() + " of text component");
+        }
+        List<String> words = text.getComponents().stream()
+                .flatMap(p -> p.getComponents().stream())
+                .flatMap(s -> s.getComponents().stream())
+                .flatMap(l -> l.getComponents().stream())
+                .filter(w -> !(w instanceof PunctuationLeaf))
+                .map(w -> w.toString().toLowerCase())
+                .collect(Collectors.toList());
+        Map<String, Integer> sameWords = new HashMap<>();
+
+        for (String word : words) {
+            if (sameWords.isEmpty() | !sameWords.containsKey(word)) {
+                sameWords.put(word, 1);
+            } else if (sameWords.containsKey(word)) {
+                int value = sameWords.get(word);
+                sameWords.put(word, ++value);
+            }
+        }
+        Iterator<String> iterator = sameWords.keySet().iterator();
+        while (iterator.hasNext()) {
+            String currentWord = iterator.next();
+            if (sameWords.get(currentWord) == 1) {
+                iterator.remove();
+            }
+        }
+        return sameWords;
     }
 
     @Override
