@@ -15,6 +15,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.List;
+import java.util.Map;
 
 public class Main {
     static Logger logger = LogManager.getLogger();
@@ -41,6 +42,8 @@ public class Main {
             logger.info("Number of consonants in the text:" + numberOfConsonant);
             long numberOfVowel = service.countVowel(component);
             logger.info("Number of vowels in the text:" + numberOfVowel);
+            Map<String, Integer> sameWords = service.findSameWords(component);
+            logger.info("Same words: " + sameWords);
         } catch (CustomException e) {
             logger.log(Level.ERROR, e);
         }
