@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class SentenceHandler extends AbstractHandler {
-    AbstractHandler successor = new LexemeHandler();
+    private AbstractHandler successor = new LexemeHandler();
     static final String REGEX_SENTENCE = "(\\w|[А-ЯЁ]).+?(?<=[.!?]{1,3})(\\s|$)";
 
     @Override
