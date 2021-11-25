@@ -20,24 +20,25 @@ import java.util.Map;
 public class Main {
     static Logger logger = LogManager.getLogger();
     static final String FILE_PATH = "data/data.txt";
+    static final int WORD_LIMIT = 19;
 
     public static void main(String[] args) {
         DataReader reader = new DataReaderImpl();
-        String result;
+        String text;
         try {
-            result = reader.readData(FILE_PATH);
-            System.out.println(result);
+            text = reader.readData(FILE_PATH);
+            System.out.println(text);
             AbstractHandler handler = new TextHandler();
             TextComponent component = new TextComposite(TextComponentType.TEXT);
-            handler.handleRequest(component, result);
+            handler.handleRequest(component, text);
             logger.info("Parsed data:\n" + component);
             TextService service = new TextServiceImpl();
             List<TextComponent> componentList = service.sortParagraphsBySentence(component);
             logger.info("Sorting by the number of sentences in the paragraph:\n" + componentList);
-            TextComponent sentenceWithLongestWord = service.findSentenceWithLongestWord(component);
+            List<String> sentenceWithLongestWord = service.findSentenceWithLongestWord(component);
             logger.info("Sentence with the longest word:\n" + sentenceWithLongestWord);
-            List<TextComponent> suitableSentences = service.deleteSentencesUnderWordLimit(component, 18);
-            logger.info("Sentence with the number of words more than:\n" + suitableSentences);
+            List<TextComponent> sentencesAboveWordLimit = service.deleteSentencesUnderWordLimit(component, WORD_LIMIT);
+            logger.info("Sentence with the number of words more than " + WORD_LIMIT + ":\n" + sentencesAboveWordLimit);
             long numberOfConsonant = service.countConsonant(component);
             logger.info("Number of consonants in the text:" + numberOfConsonant);
             long numberOfVowel = service.countVowel(component);
