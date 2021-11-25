@@ -9,9 +9,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class WordPunctuationHandler extends AbstractHandler {
-    AbstractHandler successor = new LetterHandler();
+    private AbstractHandler successor = new LetterHandler();
     private static final String WORD_REGEX = "[\\wа-яА-яёЁ]+";
-    private static final String PUNCTUATION_REGEX = "\\p{P}|\n";
     private static final String REGEX_WORD_OR_PUNCTUATION = "([\\wа-яА-яёЁ]+)|(\\p{Punct})";
 
     @Override
@@ -21,7 +20,6 @@ public class WordPunctuationHandler extends AbstractHandler {
 
         while (matcher.find()) {
             String part = matcher.group();
-
             Pattern wordPattern = Pattern.compile(WORD_REGEX);
             Matcher wordMatcher = wordPattern.matcher(part);
 
