@@ -4,7 +4,7 @@ import java.util.List;
 
 public class PunctuationLeaf implements TextComponent {
     private char punctuation;
-    TextComponentType type;
+    private TextComponentType type;
 
     public PunctuationLeaf(char punctuation, TextComponentType type) {
         this.punctuation = punctuation;
@@ -12,19 +12,27 @@ public class PunctuationLeaf implements TextComponent {
     }
 
     @Override
+    public TextComponent getComponentCopy(){
+        return new PunctuationLeaf(this.punctuation, this.type);
+    }
+
+    @Override
     public boolean add(TextComponent textComponent) {
         throw new UnsupportedOperationException("Component " + textComponent + " can't be added to punctuation symbol");
     }
+
     @Override
     public boolean remove(TextComponent textComponent) {
         throw new UnsupportedOperationException("Component " + textComponent + " can't be removed from punctuation symbol");
     }
+
     @Override
-    public List<TextComponent> getComponents(){
-        throw  new UnsupportedOperationException("Punctuation leaf ia a terminal element");
+    public List<TextComponent> getComponents() {
+        throw new UnsupportedOperationException("Punctuation leaf ia a terminal element");
     }
+
     @Override
-    public TextComponentType getType(){
+    public TextComponentType getType() {
         return type;
     }
 
