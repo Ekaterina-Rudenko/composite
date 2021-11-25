@@ -5,7 +5,7 @@ import by.epam.task4.entity.TextComponent;
 import by.epam.task4.entity.TextComposite;
 
 public class LexemeHandler extends AbstractHandler {
-    AbstractHandler successor = new WordPunctuationHandler();
+    private AbstractHandler successor = new WordPunctuationHandler();
     private static final String REGEX_LEXEME_DELIMITER = "\\s";
 
     @Override
