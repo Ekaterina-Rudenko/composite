@@ -26,8 +26,33 @@ public class TextComposite implements TextComponent {
         return new ArrayList<TextComponent>(components);
     }
 
+    @Override
+    public TextComponent getComponentCopy(){
+        TextComponent copiedComponent = new TextComposite(this.type);
+        this.components.forEach(child -> copiedComponent.add(child.getComponentCopy()));
+        return  copiedComponent;
+    }
+
+    @Override
     public TextComponentType getType() {
         return type;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        TextComposite that = (TextComposite) o;
+        return type != null ? type.equals(that.type) : that.type == null &&
+                components != null ? components.equals(that.components) : that.components == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 11;
+        result += result * 31 + (type != null ? type.hashCode() : 0);
+        result += result * 31 + (components != null ? components.hashCode() : 0);
+        return result;
     }
 
     @Override
@@ -40,5 +65,4 @@ public class TextComposite implements TextComponent {
         stringBuilder.append(type.getPostfix());
         return stringBuilder.toString();
     }
-
 }
